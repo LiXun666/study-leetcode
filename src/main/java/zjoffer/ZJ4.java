@@ -1,5 +1,4 @@
-package lxjj.demo.zjoffer;
-
+package zjoffer;
 
 import java.lang.reflect.Array;
 import java.util.Arrays;

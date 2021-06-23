@@ -17,5 +17,6 @@ public class LC1281 {
             n /= 10;
         }
         return product - sum;
+
     }
 }

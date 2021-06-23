@@ -1,4 +1,4 @@
-package lxjj.demo.zjoffer;
+package zjoffer;
 
 /**
  * @Description TODO

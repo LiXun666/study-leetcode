@@ -1,4 +1,4 @@
-package lxjj.demo.zjoffer;
+package zjoffer;
 
 import sun.print.SunMinMaxPage;
 
