@@ -1,7 +1,6 @@
 package leetcode;
 
 import leetcode.ListNode;
-import lxjj.demo.zjoffer.ZJ16;
 
 /**
  * @Author:lx
