@@ -30,5 +30,6 @@ public class NC55 {
             res.append(c);
         }
         return res.toString();
+
     }
 }
