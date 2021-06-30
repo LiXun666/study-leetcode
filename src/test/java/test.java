@@ -2,6 +2,7 @@ import com.sun.media.jfxmedia.events.BufferListener;
 import leetcode.BSTIterator;
 import leetcode.LC2;
 import leetcode.MinStack;
+import leetcode.TreeNode;
 
 import java.lang.reflect.Array;
 import java.util.*;
@@ -13,8 +14,10 @@ import java.util.*;
  */
 public class test {
     public static void main(String[] args) {
-        System.out.println(701/26);
-        System.out.println((char)('A'+25-1));
+//        TreeNode root = new TreeNode(1);
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.add(null);
+        System.out.println(queue.isEmpty());
 
     }
 
