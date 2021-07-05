@@ -14,11 +14,10 @@ import java.util.*;
  */
 public class test {
     public static void main(String[] args) {
-//        TreeNode root = new TreeNode(1);
-        Queue<TreeNode> queue = new LinkedList<>();
-        queue.add(null);
-        System.out.println(queue.isEmpty());
+        HashMap<Integer, Integer> map = new HashMap<>();
+        map.put(1,1);
 
+        System.out.println(map.getOrDefault(0,0));
     }
 
     public static void sort(int[] nums, int l,int r){
