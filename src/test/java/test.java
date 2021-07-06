@@ -14,10 +14,9 @@ import java.util.*;
  */
 public class test {
     public static void main(String[] args) {
-        HashMap<Integer, Integer> map = new HashMap<>();
-        map.put(1,1);
-
-        System.out.println(map.getOrDefault(0,0));
+        String[] s1 = new String[]{"David","3","Ceviche"};
+        List<String> list1 = new ArrayList<>(Arrays.asList(s1));
+        System.out.println(list1.toString());
     }
 
     public static void sort(int[] nums, int l,int r){
