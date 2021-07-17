@@ -14,9 +14,14 @@ import java.util.*;
  */
 public class test {
     public static void main(String[] args) {
-        String[] s1 = new String[]{"David","3","Ceviche"};
-        List<String> list1 = new ArrayList<>(Arrays.asList(s1));
-        System.out.println(list1.toString());
+        System.out.println(2+"\t"+2);
+        Map<Integer,Integer> map = new HashMap<>();
+       map.put(3,2);
+       map.put(2,3);
+        Object[] objects = map.keySet().toArray();
+        Arrays.sort(objects);
+        System.out.println(objects[0]);
+
     }
 
     public static void sort(int[] nums, int l,int r){
