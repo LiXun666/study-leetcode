@@ -14,13 +14,15 @@ import java.util.*;
  */
 public class test {
     public static void main(String[] args) {
-        System.out.println(2+"\t"+2);
-        Map<Integer,Integer> map = new HashMap<>();
-       map.put(3,2);
-       map.put(2,3);
-        Object[] objects = map.keySet().toArray();
-        Arrays.sort(objects);
-        System.out.println(objects[0]);
+        TreeMap<Integer,Integer> set = new TreeMap<>();
+        set.put(1,2);
+        set.put(2,2);
+        set.put(4,2);
+        set.put(4,2);
+        set.put(3,2);
+        for (Integer integer : set.keySet()) {
+            System.out.println(integer);
+        }
 
     }
 
