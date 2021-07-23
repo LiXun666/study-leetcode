@@ -1,4 +1,5 @@
 import com.sun.media.jfxmedia.events.BufferListener;
+import com.sun.org.apache.bcel.internal.generic.NEW;
 import leetcode.BSTIterator;
 import leetcode.LC2;
 import leetcode.MinStack;
@@ -14,16 +15,11 @@ import java.util.*;
  */
 public class test {
     public static void main(String[] args) {
-        TreeMap<Integer,Integer> set = new TreeMap<>();
-        set.put(1,2);
-        set.put(2,2);
-        set.put(4,2);
-        set.put(4,2);
-        set.put(3,2);
-        for (Integer integer : set.keySet()) {
-            System.out.println(integer);
-        }
-
+        String a = "bca";
+        String b = "abc";
+        int i = a.compareTo(b);
+        ArrayList<Integer> integers = new ArrayList<>();
+        Collections.sort(integers);
     }
 
     public static void sort(int[] nums, int l,int r){
