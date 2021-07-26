@@ -15,7 +15,12 @@ import java.util.*;
  */
 public class test {
     public static void main(String[] args) {
-        System.out.println(process("i love you"));
+        List<String> list = new ArrayList();
+        list.add("0101");
+        String a = new String("0101");
+        for (String s : list) {
+            System.out.println(s==a);
+        }
     }
 
     public static String  process( String s){
