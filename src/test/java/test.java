@@ -7,6 +7,7 @@ import leetcode.TreeNode;
 
 import java.lang.reflect.Array;
 import java.util.*;
+import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * @Author:lx
@@ -15,8 +16,7 @@ import java.util.*;
  */
 public class test {
     public static void main(String[] args) {
-       Set<Integer> set =  new HashSet();
-        set.toArray();
+
     }
 
     public static String  process( String s){
